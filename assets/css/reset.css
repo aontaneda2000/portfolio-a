@@ -1,0 +1,66 @@
+:root {
+  --header-heigth: 60px;
+  --bg-body-ligth: rgb(240, 231, 219);
+
+  /* DARK MODE */
+  --bg-body-dark: rgb(32, 32, 35);
+}
+
+/* Estilos generales */
+html {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+
+
+body {
+  margin: 0;
+  background-color: #fff;
+}
+
+
+
+li {
+  list-style: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav__btns button{
+  border: none;
+  background-color: transparent;
+}
+
+.container {
+  max-width: 968px;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.section {
+  padding: 1rem;
+
+  
+}
+
+
